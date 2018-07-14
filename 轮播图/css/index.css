@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+#banner{
+    width: 1000px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#banner ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 300px;
+    width: 4000px;
+}
+#banner ul li{
+    width: 1000px;
+    height: 300px;
+    float: left;
+    background: #ccc url("../img/default.gif") no-repeat center center;
+}
+#banner ul li img{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+#bannerTip{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+#bannerTip a{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #ff4cd4;
+    display: inline-block;
+    margin: 0 3px;
+}
+#bannerTip a.bg{
+    background: orange;
+}
+.btnLeft, .btnRight{
+    width: 30px;
+    height: 45px;
+    background: url("../img/pre.png") no-repeat;
+    position: absolute;
+    top: 50%;
+    margin-top: -22.5px;
+    display: none;
+}
+.btnLeft{
+    left: 15px;
+
+}
+.btnRight{
+    right: 15px;
+    background-position: -45px 0;
+}
